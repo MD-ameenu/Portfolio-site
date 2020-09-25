@@ -97,7 +97,7 @@ p{
     flex:2;
 }
 .skills{
-    background: brown;
+    background: gray;
 }
 .skills h2{
     text-align: center;
@@ -112,7 +112,7 @@ p{
     padding: 10px;
 }
 .whatido{
-    background: brown;
+    background: gray;
 }
 .whatido h2{
     text-align: center;
@@ -120,13 +120,13 @@ p{
     color: black;
     
 }
-.do div i{
+.whatido div {
     font-size: 5rem;
-    margin-left: 3rem;
+    text-align: center;
 }
 /* moments */
 .momentcontainer{
-    background:brown;
+    background:gray;
 }
 #moments{
     display: block;
