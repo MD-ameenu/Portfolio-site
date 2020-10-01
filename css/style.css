@@ -16,6 +16,11 @@ p{
     background: gray;
     display: flex;
     border-radius: 7px;
+    position:sticky;
+    top:0;
+}
+#navbar.sticky{
+    background: black;
 }
 #navbar div{
     flex: 1;
@@ -121,7 +126,7 @@ p{
     
 }
 .whatido div {
-    font-size: 5rem;
+    font-size: 50rem;
     text-align: center;
 }
 /* moments */
@@ -162,26 +167,27 @@ p{
 }
 .testimonials{
     display: flex;
+   justify-content: space-around;
+   
 }
-.testimonials div{
-    flex: 1;
+.imgcontainer{
+    padding: 10px;
+    background: gray;
+    border-radius: 5px;
+}
+.imgcontainer h4{
+    text-align: center;
 }
 .text{
-    margin:10px;
-}
-.img{
-    width:200px;
-    height: 200px;
-    margin-left: 1rem;
+    margin:10px;    
 }
 .img img{
-    width:20%;
     object-fit: cover;
     width: 200px;
     height: 200px;
 }
 .myheros h4{
-    margin-left: 3rem;
+   
 }
 .text{
     font-size: 15px;
