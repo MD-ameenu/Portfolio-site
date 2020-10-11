@@ -195,6 +195,18 @@ p{
 }
 
 /* about me */
+.resume{
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-weight: 800;
+    background-color: gray;
+    border-radius: 10px;
+    color: white;
+    transition:font-size 0.5s;
+}
+.resume:hover{
+    font-size: 1.2rem;
+}
 #aboutus{
     height:34rem;
 }
@@ -293,7 +305,7 @@ p{
 }
 /* project */
 #projectdone{
-    height: 23rem;
+    height: 32rem;
 }
 .project{
     display: flex;
